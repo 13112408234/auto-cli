@@ -1,5 +1,5 @@
  # dawei-cli
-
+![Npm 版本](https://img.shields.io/badge/auto-cli_v0.01-green)
  ## 简介
  -用于快速搭建前端项目的命令行工具
 
