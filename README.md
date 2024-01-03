@@ -1,18 +1,18 @@
- #dawei-cli
+ # dawei-cli
 
- ##简介
+ ## 简介
  -用于快速搭建前端项目的命令行工具
 
- ##模板
+ ## 模板
  -快速生成  Vue3 + TS+vite+elementPlus+Pinia+Axios+Mock的模板
 
- ##安装
+ ## 安装
 
  ```bash
 npm install auto-cli -g
 ```
 
-##使用
+## 使用
 
 ```bash
 #使用模板创建项目
