@@ -1,6 +1,6 @@
 {
-  "name": "auto-cli",
-  "version": "0.0.1",
+  "name": "fuzepei-cli",
+  "version": "0.0.2",
   "description": "auto-cli 脚手架",
   "main": "index.js",
   "scripts": {
