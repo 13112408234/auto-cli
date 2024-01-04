@@ -1,5 +1,5 @@
 {
-  "name": "fzp-cli",
+  "name": "auto-cli",
   "version": "1.0.2",
   "description": "auto-cli 脚手架",
   "main": "index.js",
