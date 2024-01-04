@@ -2,7 +2,7 @@
 //导入git插件，克隆git项目
 import {simpleGit} from 'simple-git'
 //下载时有进度条提示
-const createLogger = require('progress-estimator') 
+import createLogger from 'progress-estimator'
 //因为progress-estimato进度条颜色是白色，所以下载其他
 //改变终端的字体颜色
 import chalk from 'chalk'
