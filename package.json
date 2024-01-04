@@ -1,5 +1,5 @@
 {
-  "name": "auto-cli",
+  "name": "fzp-cli",
   "version": "1.0.3",
   "description": "auto-cli 脚手架",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "fzp",
   "bin": {
-    "auto": "bin/index.js"
+    "fzp": "bin/index.js"
   },
   "files": [
     "dist",
