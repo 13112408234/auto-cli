@@ -25,7 +25,11 @@ export default defineConfig([
       externals({
         devDeps: false, // 可以识别我们 package.json 中的依赖当作外部依赖处理 不会直接将其中引用的方法打包出来
       }),
-      typescript(),
+      typescript({
+        // 执行rollup插件期间使用的tsconfig.json文件路径
+        tsconfig: './tsconfig.json',
+        tslib: require.resolve('tslib')
+      }),
       json(),
       
       terser(),
