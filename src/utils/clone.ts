@@ -38,10 +38,10 @@ export const clone = async (url:string, projectName: string, options: string[]) 
      //logger进度条函数
      await logger(git.clone(url,projectName,options), '代码下载...',{
         //预计下载时间
-         estimate: 7000,   
+         estimate: 7000,    
      })
   
-     // 下面就是一些相关的提示
+     // 下面就是一些相关的提示1111111111
         console.log(chalk.green('代码下载成功'));  
         console.log()
         console.log(chalk.blueBright(`==================================`))

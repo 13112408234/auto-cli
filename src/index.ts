@@ -2,7 +2,7 @@ import {Command} from 'commander';
 import {version} from '../package.json'
 import create from './command/create'
 //dawei作为指令的名称
-const program = new Command('dawei')   
+const program = new Command('fzp')   
 
 program.version(version,'-v, --version')
 //description：描述该命令的作用，argument：参数，创建命令时要输入的

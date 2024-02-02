@@ -1,12 +1,18 @@
 
 //导入终端交互的模块
 import {input,select} from '@inquirer/prompts'
+
 //下载git项目的配置文件
 import { clone } from '../utils/clone';
 //导入路径
+
 import path  from 'path';
+
 //专门处理文件的依赖(需要安装)
 import fs from 'fs-extra'
+
+
+
 export interface TemplateInfo {
     name: string; // 项目名称
     downloadUrl: string; // 下载地址 
@@ -59,8 +65,8 @@ export default async function create(projectName?: string) {
     //给用户选择要克隆哪一个git模板
     const templateList = [...templates.entries()].map((item: [string, TemplateInfo]) => {
       const [name, info] = item;
-      console.log('name:'+name)
-      console.log(info)
+      // console.log('name:'+name)
+      // console.log(info)
       return {
         name,
         value: name,
@@ -98,7 +104,7 @@ export default async function create(projectName?: string) {
     })
     //用户选择完模板，获取到用户在终端上选择的模板
     const info = templates.get(templateName);
-     console.log(info);
+    //  console.log(info);
     //从githuob上下载项目模板
     if(info){
       //info.downloadUrl：git克隆地址
@@ -110,7 +116,7 @@ export default async function create(projectName?: string) {
 
     } 
     
-    console.log('create',projectName );
+    // console.log('create',projectName );
     
     
 }
