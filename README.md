@@ -6,13 +6,13 @@
  ## 模板
  -快速生成  Vue3 + TS+vite+elementPlus+Pinia+Axios+Mock的模板
 
- ## 安装
+ ## npm安装脚手架
 
  ```bash
 npm install fzp-cli -g
 ```
 
-## 使用
+## npm使用脚手架
 
 ```bash
 #使用模板创建项目
@@ -23,3 +23,18 @@ fzp create [projectName]
 
 #查看脚手架版本
 fzp -v
+```
+
+## github运行项目步骤
+
+```bash
+#使用git clone 拉取项目到本地时需执行以下命令才能成功运行项目
+#安装该命令安装依赖
+pnpm i
+
+#使用该命令打包生成dist文件夹
+npm run build
+
+#使用该命令运行项目
+node .\dist\ create
+```
